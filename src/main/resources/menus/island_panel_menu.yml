@@ -1,0 +1,71 @@
+title: "<#FF9F1C><bold>Island Panel</bold>"
+rows: 4
+
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+
+items:
+
+  home:
+    slot: 10
+    material: GRASS_BLOCK
+    name: "<#FFD84D><bold>Island Home</bold>"
+    lore:
+      - ""
+      - "<gray>Teleport back to your"
+      - "<gray>island home."
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TELEPORT</bold>"
+
+  upgrades:
+    slot: 12
+    material: NETHER_STAR
+    name: "<#FFD84D><bold>Island Upgrades</bold>"
+    lore:
+      - ""
+      - "<gray>Improve your island's"
+      - "<gray>production and abilities."
+      - ""
+      - "<#FF9F1C><bold>CLICK TO OPEN</bold>"
+
+  members:
+    slot: 14
+    material: PLAYER_HEAD
+    name: "<#FFD84D><bold>Island Members</bold>"
+    lore:
+      - ""
+      - "<gray>View and manage your"
+      - "<gray>island members."
+      - ""
+      - "<#FF9F1C><bold>CLICK TO OPEN</bold>"
+
+  permissions:
+    slot: 16
+    material: COMPARATOR
+    name: "<#FFD84D><bold>Island Permissions</bold>"
+    lore:
+      - ""
+      - "<gray>Control what each island"
+      - "<gray>role is allowed to do."
+      - ""
+      - "<#FF9F1C><bold>CLICK TO OPEN</bold>"
+
+  settings:
+    slot: 22
+    material: REPEATER
+    name: "<#FFD84D><bold>Island Settings</bold>"
+    lore:
+      - ""
+      - "<gray>Configure gameplay and"
+      - "<gray>behavior on your island."
+      - ""
+      - "<#FF9F1C><bold>CLICK TO OPEN</bold>"
+
+  close:
+    slot: 31
+    material: BARRIER
+    name: "<red><bold>Close</bold>"
+    lore:
+      - "<gray>Close the island panel."

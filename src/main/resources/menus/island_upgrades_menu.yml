@@ -1,0 +1,114 @@
+title: "<#FF9F1C><bold>Island Upgrades</bold>"
+rows: 6
+
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+
+items:
+
+  ore_generator:
+    slot: 10
+    material: COBBLESTONE
+    name: "<#FFD84D><bold>Ore Generator</bold>"
+    lore:
+      - ""
+      - "<gray>Improve the blocks generated"
+      - "<gray>by your island generator."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - ""
+      - "<next_information>"
+
+  crop_growth:
+    slot: 12
+    material: WHEAT
+    name: "<#FFD84D><bold>Crop Growth</bold>"
+    lore:
+      - ""
+      - "<gray>Increase how quickly your"
+      - "<gray>island's crops grow."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Multiplier: <#FFD84D>x<current_value>"
+      - "<gray>Chance: <#FFD84D><current_chance>%"
+      - ""
+      - "<next_information>"
+
+  crop_drops:
+    slot: 14
+    material: HAY_BLOCK
+    name: "<#FFD84D><bold>Crop Drops</bold>"
+    lore:
+      - ""
+      - "<gray>Increase crop drops."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Multiplier: <#FFD84D>x<current_value>"
+      - "<gray>Chance: <#FFD84D><current_chance>%"
+      - ""
+      - "<next_information>"
+
+  island_size:
+    slot: 16
+    material: GRASS_BLOCK
+    name: "<#FFD84D><bold>Island Size</bold>"
+    lore:
+      - ""
+      - "<gray>Expand your usable island area."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Size: <#FFD84D><current_value>x<current_value>"
+      - ""
+      - "<next_information>"
+
+  spawner:
+    slot: 28
+    material: SPAWNER
+    name: "<#FFD84D><bold>Spawner</bold>"
+    lore:
+      - ""
+      - "<gray>Improve your island's spawners."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Speed: <#FFD84D>x<speed_multiplier>"
+      - "<gray>Amount: <#FFD84D>x<amount_multiplier>"
+      - "<gray>Chance: <#FFD84D><current_chance>%"
+      - ""
+      - "<next_information>"
+
+  mob_drops:
+    slot: 30
+    material: ROTTEN_FLESH
+    name: "<#FFD84D><bold>Mob Drops</bold>"
+    lore:
+      - ""
+      - "<gray>Increase drops from mobs."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Multiplier: <#FFD84D>x<current_value>"
+      - "<gray>Chance: <#FFD84D><current_chance>%"
+      - ""
+      - "<next_information>"
+
+  mob_experience:
+    slot: 32
+    material: EXPERIENCE_BOTTLE
+    name: "<#FFD84D><bold>Mob Experience</bold>"
+    lore:
+      - ""
+      - "<gray>Increase experience from mobs."
+      - ""
+      - "<gray>Level: <white><current_level>/<max_level>"
+      - "<gray>Multiplier: <#FFD84D>x<current_value>"
+      - "<gray>Chance: <#FFD84D><current_chance>%"
+      - ""
+      - "<next_information>"
+
+  back:
+    slot: 49
+    material: ARROW
+    name: "<#FFD84D><bold>Back</bold>"
+    lore:
+      - "<gray>Return to the island menu."

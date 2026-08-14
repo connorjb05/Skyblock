@@ -1,0 +1,76 @@
+global:
+  error:
+    title: "<red><bold>ERROR</bold>"
+    subtitle: "<gray><error>"
+    sound: ""
+
+island_command:
+  player_data_loading: "&cYour player data is still loading."
+
+  not_in_island: "&cYou are not a part of an island."
+  island_not_found: "&cYour island could not be found."
+
+  usage: "&cUsage: &e<usage>"
+  invalid_island_id: "&cInvalid island ID."
+
+  player_not_online: "&cPlayer &e<player> &cis not online."
+  target_data_loading: "&e<player>'s &cplayer data is still loading."
+  target_already_in_island: "&e<player> &cis already a part of an island."
+  cannot_target_self: "&cYou cannot target yourself."
+
+  invite_already_pending: "&e<player> &calready has a pending invitation from your island."
+  invite_sent: "&aInvited &e<player> &ato your island."
+  invite_received: "&e<player> &ainvited you to their island. &fUse &e/is accept <island_id> &for &e/is decline <island_id>&f."
+
+  create_failure: "&cAn error occurred while creating your island."
+  teleport_failure: "&cUnable to teleport you to your island."
+  delete_failure: "&cAn error occurred while deleting your island."
+  join_failure: "&cAn error occurred while joining the island."
+  leave_failure: "&cAn error occurred while leaving your island."
+
+  invalid_permission: "&cUnknown island permission: &e<permission>"
+  invalid_role: "&cUnknown island role: &e<role>"
+
+island_permission:
+  update_success: "&aUpdated &e<permission> &apermission to &e<role>+&a."
+  reset_success: "&aReset &e<permission> &apermission back to &e<role>+&a."
+  reset_all_success: "&aReset all island permissions back to their defaults."
+  no_permission: "&cYou need &e<required_role>+ &cto use &e<permission>&c."
+  failure: "&cUnable to update the island permissions."
+
+island_creation:
+  success: "&aYou successfully created an island."
+  already_in_island: "&cYou are already in an island."
+  slot_limit_reached: "&cThe maximum slot id limit has been reached."
+
+island_deletion:
+  queued: "&aSuccessfully deleted island."
+  not_in_island: "&cYou are not a part of an island."
+  not_owner: "&cYou are not the owner of this island."
+  already_queued: "&cYou must wait before deleting your island."
+
+decline_island_invitation:
+  success: "&aYou declined <island_owner>'s island invitation."
+  invite_not_found: "&cAn invite from this island was not found."
+
+island_teleport:
+  failure: "&cUnable to teleport to this island."
+  success: "&eTeleporting to &6<island_owner>'s &eisland."
+  title: "&6&l<island_owner>'s"
+  subtitle: "&7Island"
+
+join_island:
+  success: "&aYou successfully joined <island_owner>'s island."
+  already_in_island: "&cYou are already a part of an island."
+  invite_not_found: "&cAn invite from this island was not found."
+  invite_expired: "&cThis invitation has expired."
+  island_not_found: "&cIsland does not exist."
+
+leave_island:
+  success: "&aYou successfully left your island."
+  not_in_island: "&cYou are not a part of an island."
+  leader_cannot_leave: "&cYou cannot leave your island. You must delete it or transfer leadership before leaving."
+
+clear_entities:
+  warning: "&6&l<!> &e&lEntities will be cleared in &f<seconds> &e&lseconds &6&l<!>"
+  completed: "&6&l<!> &e&lRemoved &f<entities> &e&lentities &6&l<!>"

@@ -1,0 +1,153 @@
+title: "<#FF9F1C><bold>Island Settings</bold>"
+rows: 5
+
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+
+items:
+
+  pvp:
+    slot: 10
+    material: DIAMOND_SWORD
+    name: "<#FFD84D><bold>Player PvP</bold>"
+    lore:
+      - ""
+      - "<gray>Allow players to damage"
+      - "<gray>each other on your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  public:
+    slot: 12
+    material: OAK_DOOR
+    name: "<#FFD84D><bold>Public Island</bold>"
+    lore:
+      - ""
+      - "<gray>Allow visitors to access"
+      - "<gray>your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  mob_griefing:
+    slot: 14
+    material: CREEPER_HEAD
+    name: "<#FFD84D><bold>Mob Griefing</bold>"
+    lore:
+      - ""
+      - "<gray>Allow mobs to modify"
+      - "<gray>blocks on your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  explosions:
+    slot: 16
+    material: TNT
+    name: "<#FFD84D><bold>Explosions</bold>"
+    lore:
+      - ""
+      - "<gray>Allow explosions to damage"
+      - "<gray>blocks on your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  fire_spread:
+    slot: 19
+    material: FLINT_AND_STEEL
+    name: "<#FFD84D><bold>Fire Spread</bold>"
+    lore:
+      - ""
+      - "<gray>Allow fire to naturally"
+      - "<gray>spread across your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  leaf_decay:
+    slot: 21
+    material: OAK_LEAVES
+    name: "<#FFD84D><bold>Leaf Decay</bold>"
+    lore:
+      - ""
+      - "<gray>Allow unsupported leaves"
+      - "<gray>to naturally decay."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  crop_trampling:
+    slot: 23
+    material: FARMLAND
+    name: "<#FFD84D><bold>Crop Trampling</bold>"
+    lore:
+      - ""
+      - "<gray>Allow farmland to be"
+      - "<gray>trampled by entities."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  animal_spawning:
+    slot: 25
+    material: COW_SPAWN_EGG
+    name: "<#FFD84D><bold>Animal Spawning</bold>"
+    lore:
+      - ""
+      - "<gray>Allow passive animals"
+      - "<gray>to spawn on your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  monster_spawning:
+    slot: 31
+    material: ZOMBIE_SPAWN_EGG
+    name: "<#FFD84D><bold>Monster Spawning</bold>"
+    lore:
+      - ""
+      - "<gray>Allow hostile mobs"
+      - "<gray>to spawn on your island."
+      - ""
+      - "<gray>Status: <status_color><status>"
+      - "<gray>Default: <white><default_status>"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO TOGGLE</bold>"
+
+  reset_all:
+    slot: 39
+    material: RED_DYE
+    name: "<red><bold>Reset Settings</bold>"
+    lore:
+      - ""
+      - "<gray>Reset all island settings"
+      - "<gray>back to their defaults."
+      - ""
+      - "<red><bold>CLICK TO RESET</bold>"
+
+  back:
+    slot: 40
+    material: ARROW
+    name: "<#FFD84D><bold>Back</bold>"
+    lore:
+      - "<gray>Return to the island menu."

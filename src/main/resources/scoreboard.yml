@@ -1,0 +1,35 @@
+loading:
+  title: "<#FFB000><bold>SKYBLOCK</bold>"
+  lines:
+    - ""
+    - "<#FFFFFF>Loading your data..."
+    - ""
+    - "<#FFB000>server-ip.net"
+
+no_island:
+  title: "<#FFB000><bold>SKYBLOCK</bold>"
+  lines:
+    - ""
+    - "<#FFE600>☠ <#FFFFFF><player>"
+    - ""
+    - "<#FFE600>Island: <#FFFFFF>None"
+    - "<#FFE600>Invites: <#FFFFFF><invites>"
+    - ""
+    - "<#FFFFFF>Use <#FFB000>/is create"
+    - "<#FFFFFF>to begin your adventure!"
+    - ""
+    - "<#FFB000>server-ip.net"
+
+island:
+  title: "<#FFB000><bold>SKYBLOCK</bold>"
+  lines:
+    - ""
+    - "<#FFE600>☠ <#FFFFFF><player>"
+    - ""
+    - "<#FFE600>Island: <#FFFFFF>#<island_id>"
+    - "<#FFE600>Role: <#FFFFFF><island_role>"
+    - "<#FFE600>Members: <#FFFFFF><island_members>"
+    - ""
+    - "<#FFE600>Online: <#FFFFFF><online_players>"
+    - ""
+    - "<#FFB000>server-ip.net"

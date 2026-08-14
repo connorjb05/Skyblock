@@ -1,0 +1,265 @@
+title: "<#FF9F1C><bold>Island Permissions</bold>"
+rows: 6
+
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+
+items:
+
+  build:
+    slot: 10
+    material: DIAMOND_PICKAXE
+    name: "<#FFD84D><bold>Build</bold>"
+    lore:
+      - ""
+      - "<gray>Place and break blocks"
+      - "<gray>on the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  drop_and_pickup_items:
+    slot: 11
+    material: HOPPER
+    name: "<#FFD84D><bold>Drop & Pickup Items</bold>"
+    lore:
+      - ""
+      - "<gray>Drop and pick up items"
+      - "<gray>on the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  use_containers:
+    slot: 12
+    material: CHEST
+    name: "<#FFD84D><bold>Use Containers</bold>"
+    lore:
+      - ""
+      - "<gray>Open chests and other"
+      - "<gray>storage containers."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  use_doors:
+    slot: 13
+    material: OAK_DOOR
+    name: "<#FFD84D><bold>Use Doors</bold>"
+    lore:
+      - ""
+      - "<gray>Use doors, trapdoors"
+      - "<gray>and fence gates."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  use_redstone:
+    slot: 14
+    material: REDSTONE
+    name: "<#FFD84D><bold>Use Redstone</bold>"
+    lore:
+      - ""
+      - "<gray>Interact with redstone"
+      - "<gray>components."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  interact_entities:
+    slot: 15
+    material: LEAD
+    name: "<#FFD84D><bold>Interact With Entities</bold>"
+    lore:
+      - ""
+      - "<gray>Interact with entities"
+      - "<gray>on the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  invite_members:
+    slot: 19
+    material: PLAYER_HEAD
+    name: "<#FFD84D><bold>Invite Members</bold>"
+    lore:
+      - ""
+      - "<gray>Invite players to join"
+      - "<gray>the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  kick_members:
+    slot: 20
+    material: IRON_BOOTS
+    name: "<#FFD84D><bold>Kick Members</bold>"
+    lore:
+      - ""
+      - "<gray>Remove members from"
+      - "<gray>the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  ban_visitors:
+    slot: 21
+    material: BARRIER
+    name: "<#FFD84D><bold>Ban Visitors</bold>"
+    lore:
+      - ""
+      - "<gray>Ban visitors from"
+      - "<gray>the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  unban_visitors:
+    slot: 22
+    material: LIME_DYE
+    name: "<#FFD84D><bold>Unban Visitors</bold>"
+    lore:
+      - ""
+      - "<gray>Remove visitor bans"
+      - "<gray>from the island."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  manage_upgrades:
+    slot: 28
+    material: NETHER_STAR
+    name: "<#FFD84D><bold>Manage Upgrades</bold>"
+    lore:
+      - ""
+      - "<gray>Purchase and manage"
+      - "<gray>island upgrades."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  manage_members:
+    slot: 29
+    material: NAME_TAG
+    name: "<#FFD84D><bold>Manage Members</bold>"
+    lore:
+      - ""
+      - "<gray>Manage island members"
+      - "<gray>and their roles."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  manage_permissions:
+    slot: 30
+    material: COMPARATOR
+    name: "<#FFD84D><bold>Manage Permissions</bold>"
+    lore:
+      - ""
+      - "<gray>Change the minimum role"
+      - "<gray>required for permissions."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  manage_settings:
+    slot: 31
+    material: REPEATER
+    name: "<#FFD84D><bold>Manage Settings</bold>"
+    lore:
+      - ""
+      - "<gray>Change island gameplay"
+      - "<gray>and behavior settings."
+      - ""
+      - "<gray>Required: <#FFD84D><current_role>+"
+      - "<gray>Default: <white><default_role>+"
+      - "<gray>State: <white><override>"
+      - ""
+      - "<gray>Next: <#FFD84D><next_role>+"
+      - ""
+      - "<#FF9F1C><bold>CLICK TO CYCLE</bold>"
+
+  reset_all:
+    slot: 48
+    material: RED_DYE
+    name: "<red><bold>Reset All</bold>"
+    lore:
+      - ""
+      - "<gray>Reset every customized"
+      - "<gray>permission to its default."
+      - ""
+      - "<red><bold>CLICK TO RESET</bold>"
+
+  back:
+    slot: 49
+    material: ARROW
+    name: "<#FFD84D><bold>Back</bold>"
+    lore:
+      - "<gray>Return to the island menu."

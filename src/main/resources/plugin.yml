@@ -1,0 +1,13 @@
+name: Skyblock
+main: me.connorjb05.skyblock.Skyblock
+version: 1.0.0
+author: connorjb05
+
+api-version: '26.2'
+
+depend:
+  - FastAsyncWorldEdit
+
+commands:
+  island:
+    aliases: [is]

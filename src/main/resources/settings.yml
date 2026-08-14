@@ -1,0 +1,37 @@
+islands:
+
+  world:
+    tick_speed: 13
+    difficulty: "NORMAL"
+    death_messages: true
+
+  region:
+    world: "Skyblock"
+    size: 200
+    spacing: 500
+    slots-per-row: 1000
+    origin-x: 0
+    origin-z: 0
+
+  border:
+    enabled: true
+
+  invitations:
+    duration-seconds: 60
+
+  mob_stacker:
+    enabled: true
+    radius: 8
+    y_radius: 4
+    name: "<gold><bold>x<amount></bold> <white><mob>"
+
+  item_stacker:
+    enabled: true
+    radius: 8
+    y_radius: 4
+    name: "<gold><bold>x<amount></bold> <white><item>"
+
+
+clear_entities:
+  enabled: true
+  interval: 1200
