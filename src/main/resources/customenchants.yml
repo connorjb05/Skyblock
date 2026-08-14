@@ -1,0 +1,135 @@
+
+settings:
+
+  lore:
+    header: "<dark_gray>Custom Enchants:"
+    format: "<gray>• <enchant_color><name> <level>"
+    description-format: "<dark_gray> <description>"
+
+  levels:
+    use-roman-numerals: true
+
+  limits:
+    max-enchants-per-item: 8
+
+  activation:
+    show-cooldown-message: false
+    show-activation-message: true
+
+rarities:
+
+  COMMON:
+    display: "<gray>Common"
+    color: "<gray>"
+
+  UNCOMMON:
+    display: "<green>Uncommon"
+    color: "<green>"
+
+  RARE:
+    display: "<blue>Rare"
+    color: "<blue>
+    
+    EPIC:
+        display: "<light_purple>Epic"
+    color: "<light_purple>"
+
+  LEGENDARY:
+    dispaly: "<gold>Legendary"
+    color: "<gold>
+
+enchants:
+    
+  scavenger:
+    enabled: true
+    name: "<gold>Scavenger"
+
+  description:
+    - "<gray>Chance to multiply mob drops."
+
+  trigger: KILL_ENTITY
+
+  applicable-to:
+    - SWORD
+    - AXE
+
+  conflicts: []
+
+  levels:
+
+    1:
+      chance: 10.0
+      actions:
+        - "MULTIPLY_DROPS;multiplier=1.5"
+
+    2:
+      chance: 15.0
+      actions:
+        - "MULTIPLY_DROPS;multiplier=2.0"
+
+    3:
+      chance: 20.0
+      actions:
+        - "MULTIPLY_DROPS;multiplier=3.0"
+
+
+  executioner:
+    enabled: true
+    name: "<red>Executioner"
+
+    description:
+      - "<gray>Deals more damage to"
+      - "<gray>low-health enemies."
+
+    trigger: DAMAGE_ENTITY
+
+    applicable-to:
+      - SWORD
+      - AXE
+
+    conflicts: []
+
+    levels:
+
+      1:
+        chance: 100.0
+
+        conditions:
+          - "TARGET_HEALTH_BELOW;percent=20"
+
+        actions:
+          - "MULTIPLY_DAMAGE;multiplier=1.20"
+
+      2:
+        chance: 100.0
+
+        conditions:
+          - "TARGET_HEALTH_BELOW;percent=25"
+
+        actions:
+          - "MULTIPLY_DAMAGE;multiplier=1.35"
+
+
+  vampire:
+    enabled: true
+    name: "<dark_red>Vampire"
+
+    trigger: DAMAGE_ENTITY
+
+    applicable-to:
+      - SWORD
+
+    levels:
+
+      1:
+        chance: 5.0
+        actions:
+          - "HEAL;hearts=0.5"
+          - "PARTICLE;type=HEART;amount=3"
+
+      2:
+        chance: 8.0
+        actions:
+          - "HEAL;hearts=1.0"
+          - "PARTICLE;type=HEART;amount=5"
+          - "SOUND;type=ENTITY_PLAYER_BURP;volume=0.5;pitch=1.5"
